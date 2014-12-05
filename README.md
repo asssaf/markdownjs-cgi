@@ -20,7 +20,7 @@ The container expects the files to be served to be mounted on `/www`.
 $ docker run -d --name docs \
 	-v ~/my_repo:/www/docs/my_repo \
 	-p 127.0.0.1:5080:80 \
-	markdownjs-cgi
+	asssaf/markdownjs-cgi
 ```
 
 Proxying the container from an external apache
