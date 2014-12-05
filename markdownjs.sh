@@ -10,7 +10,7 @@ Content-type: text/html
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<title>${PATH_TRANSLATED}</title>
+		<title>${SCRIPT_NAME}</title>
 		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="https://raw.githubusercontent.com/chjj/marked/master/marked.min.js"></script>
 	</head>
