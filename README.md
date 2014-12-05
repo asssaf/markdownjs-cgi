@@ -2,7 +2,7 @@ markdownjs-cgi
 ==============
 CGI script and config for serving HTML for markdown files.
 
-Markdown generation happens in the client side using javascript markdown library (marked).
+Markdown generation happens in the client side using javascript markdown library ([marked](https://github.com/chjj/marked)).
 
 A cgi shell script creates the HTML skeleton and javascript for the transformation.
 
