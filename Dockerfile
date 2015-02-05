@@ -11,5 +11,7 @@ COPY default.conf /etc/nginx/conf.d/default.conf
 RUN mkdir /usr/lib/cgi-bin
 COPY markdownjs.sh /usr/lib/cgi-bin/markdownjs.sh
 
+RUN sed -i 's/txt;/txt yml;/' /etc/nginx/mime.types
+
 COPY init.sh /init.sh
 CMD [ "/init.sh" ]
