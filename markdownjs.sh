@@ -13,6 +13,11 @@ Content-type: text/html
 		<title>${SCRIPT_NAME}</title>
 		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="https://rawgit.com/chjj/marked/master/marked.min.js"></script>
+		<style>
+			table, th, td { border: 1px solid black; }
+			table { border-collapse: collapse; }
+			td { padding-right: 15px; }
+		</style>
 	</head>
 
 	<body>
